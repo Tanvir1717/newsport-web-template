@@ -1,0 +1,138 @@
+@media screen and (max-width: 1196px) {
+  .banner-content .container, .container-lg, .container-md, .container-sm {
+		max-width: 1187px;
+	}
+	.banner-content-left h1 {
+		font-size: 4rem;
+	}
+	.banner-content-left img {
+		position: relative;
+		bottom: 155px;
+		height: 196px;
+		padding-bottom: 10px;
+	}
+		.banner-content-right img {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 500px;
+		height: 600px;
+	}
+	.card-group .card {
+		background: none;
+		border: none;
+		padding: 0px;
+	}
+	.training-area img {
+		width: 450px;
+		height: 500px;
+	}
+}
+@media screen and (max-width: 990px){
+	.compete-area .compete-content-right {
+		text-align: right;
+		position: relative;
+		overflow: hidden;
+		/* padding-top: 20px; */
+		top: 0;
+	}
+	.compete-area img{
+		width: 425px;
+	}
+	.training-area img {
+		width: 270px;
+		height: 500px;
+	}
+}
+@media screen and (max-width: 872px){
+	.banner-content-right img {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 400px;
+		height: 700px;
+	}
+	.banner-content-left h1 {
+		font-size: 3rem;
+	}
+
+}
+@media screen and (max-width: 764px){
+	.about-area button {
+		color: white;
+		background-color: #e92bde;
+		text-decoration: none;
+		text-align: center;
+		border: none;
+		border-radius: 0;
+		height: 50px;
+		width: 200px;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+		font-size: 1.3rem;
+		bottom: 30px;
+	}
+	.about-area img{
+		width: 517px;
+	}
+	.training-area .training-content-left {
+		text-align: left;
+		position: relative;
+		top: 0px;
+		overflow: hidden;
+	}
+	.training-area img {
+		width: 270px;
+		height: 400px;
+	}
+	.training-area .img-fluid {
+		position: relative;
+		left: 240px;
+	}
+	.newsletter-area-left button {
+		color: white;
+		background-color: #e92bde;
+		text-decoration: none;
+		text-align: center;
+		border: none;
+		border-radius: 0;
+		height: 42px;
+		width: 200px;
+		font-size: 1.3rem;
+		position: relative;
+		bottom: 20px;
+	}
+}
+@media screen and (max-width: 472px){
+		.banner-content-right img {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 250px;
+		height: 600px;
+	}
+	.banner-content-left h1 {
+		font-size: 3rem;
+	}
+	.compete-area img{
+		width: 260px;
+	}
+	.training-area .img-fluid {
+		position: relative;
+		left: 100px;
+		padding-top: 40px;
+		bottom: 20px;
+	}
+	.training-area img {
+		width: 240px;
+		height: 384px;
+	}
+.col-2 {
+	flex: 0 0 auto;
+	width: 43.667%;
+}
+.footer-two .social a {
+		color: #ca25d6;
+		text-decoration: none;
+		text-align: center;
+		font-size: .5rem;
+	}
+}
